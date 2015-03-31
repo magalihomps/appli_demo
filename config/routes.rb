@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'static_pages#accueil'
   get 'static_pages/aide'
   get 'static_pages/a_propos'
+  get 'static_pages/contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

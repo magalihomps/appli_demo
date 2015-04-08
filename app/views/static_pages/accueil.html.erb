@@ -1,4 +1,13 @@
 <% provide(:title, "Accueil") %>
 
-  <h1>Application Demo</h1>
-  <p>Vous êtes sur la page d'accueil de l'application Demo de <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>.</p>
+<div class="center jumbotron">
+  <h1>Bienvenue</h1>
+
+  <h2>
+    Vous êtes sur la page d'accueil de l'application démo de <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>.
+  </h2>
+
+  <%= link_to "Enregistrez-vous dès maintenant !", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"), 'http://rubyonrails.org/' %>
